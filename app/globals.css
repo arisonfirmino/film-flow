@@ -7,3 +7,13 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #facc15;
+  border-radius: 5px;
+}
