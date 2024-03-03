@@ -50,7 +50,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col gap-5">
+    <main className="flex min-h-screen w-full flex-col gap-5">
       <section className="flex max-h-[500px] min-h-[500px] w-full bg-cover bg-center">
         <Swiper autoplay={{ delay: 3000 }} loop={true}>
           {topFive.map((content) => (
